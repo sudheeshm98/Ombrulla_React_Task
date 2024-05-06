@@ -23,7 +23,7 @@ function Carousel() {
       </div>
       <div className="absolute top-1/2 left-0 right-0 flex justify-between px-4 transform -translate-y-1/2">
         <button onClick={() => setCurrent(current - 1 < 0 ? images.length - 1 : current - 1)} className="bg-white bg-opacity-75 rounded-full p-2 hover:bg-opacity-100 transition-opacity">
-          Pre
+          Prev
         </button>
         <button onClick={() => setCurrent((current + 1) % images.length)} className="bg-white bg-opacity-75 rounded-full p-2 hover:bg-opacity-100 transition-opacity">
           Next
