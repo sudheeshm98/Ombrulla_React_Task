@@ -11,7 +11,7 @@ function Banner() {
       }}
     >
       <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold leading-tight">
-        Welcome to Coding World!
+        Welcome to Coding World
       </h1>
       <p className="mt-4 text-lg sm:text-xl md:text-2xl max-w-2xl">
        Make it work , Make it right & Make it fast
